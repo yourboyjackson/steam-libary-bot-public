@@ -1,4 +1,5 @@
 # Steam Library Bot Setup Guide
+Setup this bot to monitor the steam libraries of given users and make posts in discord when new games are added to any of the users libraries.
 note: The steam library of each user needs to be set to public.
 
 ## 🛠 Step 1: Get a GitHub account (if you don’t already)
