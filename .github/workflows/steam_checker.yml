@@ -1,0 +1,14 @@
+name: Steam Library Checker
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # runs every 2 hours each day
+  workflow_dispatch:    # (optional) allows manual trigger
+
+jobs:
+  ping-render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render Web Service
+        run: |
+          curl -s -X GET https://steam-library-bot.onrender.com/run
