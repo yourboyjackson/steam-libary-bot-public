@@ -2,6 +2,8 @@
 Setup this bot to monitor the steam libraries of given users and make posts in discord when new games are added to any of the users libraries.
 note: The steam library of each user needs to be set to public.
 
+![image](https://github.com/user-attachments/assets/bd45bd76-37f5-4e80-9ec4-f92f7aed5626)
+
 ## 🛠 Step 1: Get a GitHub account (if you don’t already)
 
 GitHub is used to store your project code, steam library data, and execute code on a specified schedule. Render (Cloud service) pulls the code from your GitHub project and uploads the library data back to GitHub.
@@ -10,7 +12,7 @@ GitHub is used to store your project code, steam library data, and execute code 
 
 1. Create a new project (`steam-library-bot`)
 2. Create 2 files in project: `main.py` and `requirements.txt`
-3. Add attached code below into each file and commit (save)
+3. Add attached code from this project into each file and commit (save)
 4. Create 2nd new project (`steam-games-tracker`)
 5. Create `README.md` file in new folder by entering the name `games-data/README.md` and commit
 
